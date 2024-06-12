@@ -1,0 +1,8 @@
+- name: Configure {{SERVER}} Server
+  hosts: localhost
+  connection: local
+  vars_files:
+  - "variables-{{ENVIRONMENT}}.yml"
+  become: yes
+  roles: 
+  - "{{SERVER}}"

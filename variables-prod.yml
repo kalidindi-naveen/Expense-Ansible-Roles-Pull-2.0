@@ -1,0 +1,5 @@
+LOGIN_HOST: db-prod.step-into-iot.cloud
+DB_HOST: db-prod.step-into-iot.cloud
+LOGIN_USER: root
+PASSWORD: ExpenseApp1
+BE_API_URL: be.app-prod.step-into-iot.cloud
