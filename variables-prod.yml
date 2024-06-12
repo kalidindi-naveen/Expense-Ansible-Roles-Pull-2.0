@@ -3,3 +3,4 @@ DB_HOST: db-prod.step-into-iot.cloud
 LOGIN_USER: root
 PASSWORD: ExpenseApp1
 BE_API_URL: be.app-prod.step-into-iot.cloud
+NEXUS_URL: nexus.step-into-iot.cloud:8081

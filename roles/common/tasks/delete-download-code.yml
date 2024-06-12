@@ -10,7 +10,7 @@
 
 - name: Download {{COMPONENT}} code
   ansible.builtin.get_url:
-    url: http://nexus.step-into-iot.cloud:8081/repository/{{COMPONENT}}/com/expense/{{COMPONENT}}/{{APPVERSION}}/{{COMPONENT}}-{{APPVERSION}}.zip
+    url: http://{{NEXUS_URL}}/repository/{{COMPONENT}}/com/expense/{{COMPONENT}}/{{APPVERSION}}/{{COMPONENT}}-{{APPVERSION}}.zip
     dest: /tmp/{{COMPONENT}}.zip
 
 - name: unzip {{COMPONENT}} code
